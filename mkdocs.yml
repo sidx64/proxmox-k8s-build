@@ -38,7 +38,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Proxmox:
+  - 01 - Proxmox:
       - Installation: 01-proxmox/installation/_index.en.md
       - Configuration:
           - Network setup: 01-proxmox/network/_index.en.md
