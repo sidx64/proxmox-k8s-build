@@ -20,6 +20,8 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# Mac ecosystem garbage 
 .DS_Store
 
 # Include override files you do wish to add to version control using negated pattern
@@ -28,5 +30,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
-
 .venv
