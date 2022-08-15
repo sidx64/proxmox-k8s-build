@@ -1,0 +1,47 @@
+site_name: Proxmox-K8S-HomeLab-Build
+
+theme:
+  name: material
+  feature:
+    tabs: false
+
+strict: false
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - codehilite:
+      linenums: true
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.emoji
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      toc_depth: 5
+      permalink: true
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Proxmox:
+      - Installation: 01-proxmox/installation/_index.en.md
+      - Configuration:
+          - Network setup: 01-proxmox/network/_index.en.md
+          - Storage Setup: 01-proxmox/storage/_index.en.md
+          - OS Images: 01-proxmox/os-images/_index.en.md
+repo_url: 'https://github.com/sidx64/proxmox-k8s-build.git'
